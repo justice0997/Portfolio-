@@ -1,0 +1,68 @@
+body {
+  background-color: #0f172a; /* Cyber dark slate background */
+  color: #e2e8f0;            /* Soft off-white text */
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.portfolio-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #1e293b;       /* Slightly lighter dark card box */
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;         /* A 50% radius turns a square image into a perfect circle! */
+  border: 3px solid #38bdf8;  /* Adds a matching tech blue border around your photo */
+  object-fit: cover;          /* Prevents the image from stretching weirdly */
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.2); /* Gives it a subtle glow effect */
+}
+
+  text-align: center;
+  border-bottom: 2px solid #334155;
+  padding-bottom: 15px;
+}
+
+.quote {
+  font-style: italic;
+  color: #94a3b8;
+}
+
+h1 {
+  color: #38bdf8;            /* Vibrant tech blue main heading */
+  margin: 5px 0;
+}
+
+.subtitle {
+  color: #34d399;            /* Emerald green accent subtitle */
+  font-weight: bold;
+}
+
+h2 {
+  color: #f43f5e;            /* Soft crimson for section names */
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project-box {
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 12px;
+  border-left: 4px solid #38bdf8; /* Blue accent line on the side */
+}
